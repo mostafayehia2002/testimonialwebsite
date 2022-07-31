@@ -1,0 +1,597 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing: border-box;
+
+
+}
+.navbar-default{
+height: 60px;
+width:100%;
+background-color: black;
+border:none;
+
+}
+.navbar-toggle{
+    background-color:#3195ff;   
+    color:white;
+}
+.navbar-default .navbar-nav > li > a {
+    color:white;
+    font-size: 18px;
+   font-weight: bold;
+    text-transform: capitalize;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 3px solid #3195ff;  
+    color:#3195ff;   
+    
+}
+
+
+.navbar-default .navbar-brand 
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+
+.navbar-default .navbar-brand:hover
+{
+    color:#3195ff;  
+    border-bottom:3px solid #3195ff ;
+    
+}
+@media (max-width:767px) {
+    .navbar-collapse {
+        text-align: center;
+    background-color:black;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    opacity: .7;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color:#3195ff; 
+       } 
+       .navbar-default .navbar-nav > li > a:hover {
+        border-bottom:none;  
+        color:#3195ff;   
+        
+    } 
+ 
+}
+
+
+
+
+
+/**************************************************************/
+ .carousel-inner> .item{
+     transition:none;
+ }
+.carousel-inner > .item > img{
+ height:600px;
+width:100%;
+ }                 
+      
+.carousel-caption{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.carousel-caption h5{
+    text-align: center;
+font-size: 25px;
+color:#3195ff;
+font-weight: bolder;
+}
+.carousel-caption h1{
+    font-size: 40px;
+    font-weight: 800;
+    color:white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.carousel-caption .primary-text{
+    color:#3195ff;
+}
+.carousel-caption p{
+    color:25px;
+    text-transform: lowercase;
+}
+.buttom-page{
+    display: flex;
+    height:60px;
+    width:100%;
+    justify-content: center;
+   
+}
+.buttom-page .buttom {
+    height:60px;
+    width:300px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #3195ff;
+    
+}
+.buttom-page .buttom  a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.buttom-page .buttom:hover{
+    background-color: black;
+    opacity: .4;
+}
+
+/**************start icon**************/
+
+.icon{
+    margin-top:150px;
+}
+
+.icon  .glyphicon,
+h1{
+    font-size: 80px;
+    color:white;
+    font-weight:700 ;
+
+}
+.icon p{
+    color:white;
+    font-size: 20px;
+}
+/***********************end icon*************************/
+/***********start form1***********************/
+.form1{
+height:100px;
+width:100%;
+background-color: #3195ff;
+
+}
+.form1 form{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.form1 form span{
+    font-size: 20px;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+}
+.form1 form input{
+  height: 50px;
+  
+}
+.form1  input[type="submit"]{
+    background-color: black;
+    color:white;
+    font-size:20px;
+}
+/************end form***************************/
+
+
+/**********start courses section*****/
+
+
+.section-header .span1{    /* start header of section*/
+    color:#3195ff;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.section-header span{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:white;
+}
+.section-header p{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:white;
+}
+/*******************************end the header of section******************/
+
+/***************************start style of courses*************/
+#courses{
+width: 100%;
+margin-top:50px;
+
+}
+
+.popular .sp1{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #3195ff;
+
+}
+.popular span{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+}
+
+
+.card{
+   
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding: 20px 30px;
+    position: relative;
+    border: #333 solid 1px;
+     height: 250px;
+      width:25%;
+       margin: 50px 25px;
+
+}
+
+
+
+@media(max-width: 767px){
+    #courses .card{
+        height: 250px;
+        width: 98%;
+        margin: 40px 5px;
+     }  
+   }
+   /*************************/
+   @media(min-width: 768px)and (max-width: 991px){
+    #courses .container{
+        margin: auto 120px;
+    }
+    .card
+       {
+           width: 22%;
+           height: 300px;
+           margin: 50px 25px;
+       } 
+       #courses .container{
+           margin: auto 50px;
+       }
+   }
+   /********************************/
+   @media(min-width: 992px)and (max-width: 1400px){
+    #courses .container{
+        margin: auto 150px;
+
+
+    }
+}
+
+.card .img1{
+
+height:50px;
+width:50px;
+border-radius: 50%;
+
+ 
+    margin-bottom: 20px;
+}
+.card-body .level{
+    color:#3195ff;
+    font-size: 15px;
+}
+.card-body h3{
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.card-body img{
+    height:20px;
+    width:20px;
+   
+}
+.card-body a{
+    text-decoration:none;
+    font-size: 20px;
+    font-weight: bolder;
+    color:white;
+    
+}
+.card-body a:hover{
+    color:rgb(134, 56, 56);
+}
+
+
+
+.click{
+   
+    height: 50px;
+    color:white;
+    background-color: #333;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.click:hover{
+    background-color: #3195ff;
+}
+@media (max-width:767px) {
+   
+ .click{
+    position: relative;
+    left:86px;
+ }   
+}
+/********************************end style of courses***********************************/
+.section2{     /*********************start section2***************************/
+   
+    background-color: #eee;
+}
+.section2 .content{
+    margin-top:100px;
+    background-color: rgb(230, 225, 225);
+   height: 450px;
+   width: 400px;
+   
+  
+   border-radius: 10px;
+}
+.section2 .image{
+position:relative;
+left:25%;
+}
+
+@media (max-width:767px) {
+    .section2 .content{
+        width:100%;
+        margin-left: 0px;
+    }
+  .section2 .image{
+        position:relative;
+        left:0px;
+        } 
+}
+@media (min-width: 767px)and (max-width: 991px) {
+    .section2 .content{
+        width:40%;
+        margin-left:0px;
+    }
+  .section2 .image{
+    width: 50%;
+    height: 400px;
+        position:relative;
+        left:50px;
+        top:80px;
+        } 
+}
+.content h1
+{
+    color:black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.content a{
+    height: 50px;
+    width:200px;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    background-color: #3195ff;
+    position: absolute;
+    bottom:0px;
+}
+.content a:hover{
+    background-color: black;
+}
+  /*********************end section2***************************/
+  #about .text-center 
+  {
+
+    margin: 50px 0px;
+      font-size: 40px;
+      font-weight: 700;
+      color:white;
+  }
+  .text-center .sp3{
+      color:#3195ff;
+  }
+.about{
+    background-color: #333;
+    
+}
+.about p{
+    color:white;
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+    
+}  /*****************end about*****************/
+
+/***********************start testmonial************/
+#testmonial{
+    background-color: #f8f6f6;
+   
+   
+}
+.testmonial-header h2{
+    color:black;
+    font-size: 25;
+    font-weight: bolder;
+}
+#testmonial .person{
+background-color: #eee;
+border-radius: 10px;
+margin-bottom: 30px;
+width: 45%;
+margin-left: 30px;
+}
+@media (max-width:767px) {
+    #testmonial .person{
+        width: 100%;
+        margin-left:0px; 
+    }
+}
+.spannn{
+    color:#3195ff;
+    font-weight: bolder;
+}
+.person img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+margin-top:10px;
+}
+/*************************end testmonial*************************/
+     /***********start youtube section************/
+#youtube{
+    background-color:#3195ff;
+    opacity: .7;
+   
+}
+
+ .youtube-header p{
+        margin-top: 70px;   
+  margin-bottom: 70px;
+}
+
+.youtube-header a{
+    height: 60px;
+    width:200px;
+    background-color: red;
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+    margin:10px;
+}
+
+
+
+.youtube-header h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+}
+.youtube-header p{
+    font-size: 20px;
+    font-weight: bolder;
+    color:white;
+    
+}
+.section3{         /*************start section of iframe youtube*********************/
+    background-color: block;
+ 
+    
+}
+.section3 h1{
+    color:white;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.section3 p{
+    color:white;
+    font-size: 18px;
+}
+.section3 a{
+    color:rgb(204, 38, 38);
+    font-size: 17px;
+    text-decoration:none;
+}
+.videos{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: rgb(39, 38, 38);
+    
+}
+.content{
+    width: 23%;
+    margin:20px 20px;
+}
+
+@media(max-width:767px) {
+
+  .content{
+    width: 90%;
+    margin:20px 50px;
+  }  
+}
+@media (min-width: 768px)and (max-width:991px){
+  .content{
+    width: 40%;
+    margin: 10px 10px;
+  }  
+}
+
+
+    
+/******************************end section**********************************/
+
+
+/*******************start section4**********************/
+.section4{
+width: 100%;
+    background-color: #eee;
+}
+.section4 .content,
+.section4 .image{
+    margin-bottom:30px;
+    margin-top:30px;
+    margin-left: 10px;
+    width: 40%;
+  
+}
+@media (max-width:767px) {
+    .section4 .image{
+        width: 98%;
+        margin-left: 5px;
+    }
+    .section4 .content{
+        margin-left: 20px;
+        width: 98%;
+    }   
+}
+
+
+/*******************end section4*******************/
+/**************start footer************************/
+footer{
+    background-color: #3195ff;
+    text-align: center;
+    color:white;
+}
+footer h2{
+font-size: 20px;
+font-weight: 500;
+color:white;
+text-transform: capitalize;
+}
+
+footer .icons{
+    margin-top:15px;
+}
+
+footer .icons span{
+    color:white;
+    margin-left:30px;
+
+font-size: 30px;
+}
+footer .icons span:hover{
+                            
+color: rgb(136, 128, 128);
+
+}
+/******************endfooter****************************/
